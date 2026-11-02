@@ -4,6 +4,24 @@ Semua perubahan penting pada proyek portofolio dicatat di sini.
 
 ---
 
+## [2026-11-02 · sesi 15] Sprint 4 — Push Repositori ke GitHub & Konfigurasi SEO Pascadeploy (D2 & D4 Selesai)
+
+### 🚀 Upload ke GitHub (D2)
+- Menghubungkan repositori lokal ke remote GitHub resmi: `https://github.com/AhmadYasinPoha/portofolio.git`.
+- Berhasil mengeksekusi `git push -u origin main` menggunakan Personal Access Token (PAT).
+- Seluruh 21 berkas proyek (termasuk folder `assets/`, skrip, dan dokumentasi) telah live di GitHub.
+- Membersihkan URL remote agar kredensial token tidak tersimpan dalam berkas teks konfigurasi lokal.
+
+### 🌐 Konfigurasi Pascadeploy (D4)
+- Mengaktifkan `<link rel="canonical" href="https://ahmadyasinpoha.github.io/portofolio/">` di `index.html`.
+- Mengaktifkan `<meta property="og:url" content="https://ahmadyasinpoha.github.io/portofolio/">`.
+- Memperbarui `og:image` dan `twitter:image` menjadi URL absolut penuh (`https://ahmadyasinpoha.github.io/portofolio/assets/og-image.png`) agar preview LinkedIn dan WhatsApp tampil sempurna.
+- Menambahkan URL profil portofolio pada Schema JSON-LD `Person`.
+- Memperbarui rujukan sitemap pada `robots.txt`.
+- Perubahan pascadeploy telah di-commit (`24ea9e7`) dan langsung di-push ke GitHub.
+
+---
+
 ## [2026-11-02 · sesi 14] Sprint 4 — Inisialisasi Git Repositori Lokal (D1 Selesai)
 
 ### 📦 Setup Repositori Git Lokal (D1)

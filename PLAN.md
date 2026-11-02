@@ -220,7 +220,7 @@ Tahapan yang diselesaikan:
 | K6 | **Sertifikat & pelatihan** | 🟢 Opsional | Section sertifikasi dengan `.cert-card`. Template: cari `SERTIFIKAT`. | ⏳ Template siap |
 | K7 | **Pengalaman organisasi** | 🟢 Opsional | Section organisasi/kepanitiaan jika relevan. | ⏳ Belum dimulai |
 
-### ⏳ Sprint 4 — QA & Deploy (Q1–Q3 SELESAI ✓, MENUNGGU DEPLOY)
+### ⏳ Sprint 4 — QA & Deploy (D1, D2, D4 SELESAI ✓, TINGGAL AKTIVASI PAGES D3)
 
 | # | Item | Prioritas | Detail | Status |
 |---|---|---|---|---|
@@ -228,9 +228,9 @@ Tahapan yang diselesaikan:
 | Q2 | **Uji responsif** | 🟡 Sedang | Tata letak adaptif teruji di seluruh breakpoint (sm/md/lg), drawer menu mobile andal, target sentuh >= 44px. | ✅ Selesai |
 | Q3 | **Cek Dark Mode & Print** | 🟡 Sedang | 247 utilitas dark terverifikasi, sinkronisasi tema (localStorage/OS), print styles bersih tanpa header/tombol. | ✅ Selesai |
 | D1 | **Inisialisasi Git** | 🔴 Tinggi | Repositori Git lokal diinisialisasi, branch `main`, author dikonfigurasi, dan initial commit dibuat (21 berkas). | ✅ Selesai |
-| D2 | **Push ke GitHub** | 🔴 Tinggi | Hubungkan remote repo & push ke GitHub (menunggu konfirmasi username & URL repo). | ⏳ Siap Dijalankan |
-| D3 | **Aktifkan GitHub Pages** | 🔴 Tinggi | Settings → Pages → branch main → Save. | ⏳ Menunggu D2 |
-| D4 | **Cantumkan URL di CV & LinkedIn** | 🟡 Sedang | Setelah live, update profil + aktifkan `canonical`/`og:url`. | ⏳ Menunggu D3 |
+| D2 | **Push ke GitHub** | 🔴 Tinggi | Berhasil di-push ke `https://github.com/AhmadYasinPoha/portofolio` (branch `main`). | ✅ Selesai |
+| D3 | **Aktifkan GitHub Pages** | 🔴 Tinggi | Buka Settings → Pages → Deploy from branch `main` → Save. | ⏳ Menunggu Aktivasi di Web |
+| D4 | **Pascadeploy & Metadata SEO** | 🟡 Sedang | Canonical URL, og:url, og:image absolut, dan sitemap diaktifkan menuju `https://ahmadyasinpoha.github.io/portofolio/`. | ✅ Selesai |
 
 ---
 
