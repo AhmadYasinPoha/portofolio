@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# Setelah portofolio live, tambahkan baris berikut dengan URL final:
-# Sitemap: https://USERNAME.github.io/portofolio/sitemap.xml
+# Sitemap: https://ahmadyasinpoha.github.io/portofolio/sitemap.xml
