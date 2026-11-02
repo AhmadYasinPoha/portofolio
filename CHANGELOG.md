@@ -4,6 +4,19 @@ Semua perubahan penting pada proyek portofolio dicatat di sini.
 
 ---
 
+## [2026-11-02 · sesi 14] Sprint 4 — Inisialisasi Git Repositori Lokal (D1 Selesai)
+
+### 📦 Setup Repositori Git Lokal (D1)
+- Membuat berkas `.gitignore` untuk mengecualikan berkas sistem OS (`.DS_Store`, `Thumbs.db`, `desktop.ini`, `*.log`, `*.tmp`) dan folder sumber foto mentah `foto_profil/`.
+- Menjalankan `git init` dan mengonfigurasi branch utama menjadi `main` (`git branch -M main`).
+- Mengonfigurasi identitas Git lokal repository: `Ahmad Yasin Pohan <pohanahmadyasin@gmail.com>`.
+- Melakukan staging 21 berkas proyek portofolio dan mengeksekusi initial commit:
+  - Commit ID: `e8229c7`
+  - Pesan commit: `feat: inisialisasi portofolio Ahmad Yasin Pohan siap deploy`
+- Seluruh struktur berkas, aset web, dan dokumentasi telah terpatri di riwayat Git lokal.
+
+---
+
 ## [2026-11-02 · sesi 13] Sprint 4 — Pengujian Manual Komprehensif (Q1–Q3 Selesai)
 
 ### 🔗 Audit Tautan Internal & Eksternal (Q1)

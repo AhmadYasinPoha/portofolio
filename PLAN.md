@@ -227,8 +227,8 @@ Tahapan yang diselesaikan:
 | Q1 | **Uji semua link** | 🟡 Sedang | 17 anchor internal valid & 5 tautan eksternal (email, LinkedIn, GitHub, WhatsApp, OneDrive demo) aman dan berfungsi. | ✅ Selesai |
 | Q2 | **Uji responsif** | 🟡 Sedang | Tata letak adaptif teruji di seluruh breakpoint (sm/md/lg), drawer menu mobile andal, target sentuh >= 44px. | ✅ Selesai |
 | Q3 | **Cek Dark Mode & Print** | 🟡 Sedang | 247 utilitas dark terverifikasi, sinkronisasi tema (localStorage/OS), print styles bersih tanpa header/tombol. | ✅ Selesai |
-| D1 | **Inisialisasi Git** | 🔴 Tinggi | `git init`, `git add .`, `git commit` (folder ini belum repositori Git). | ⏳ Siap Dijalankan |
-| D2 | **Push ke GitHub** | 🔴 Tinggi | Upload ke `github.com/AhmadYasinPoha/portofolio` (verifikasi username dulu). | ⏳ Siap Dijalankan |
+| D1 | **Inisialisasi Git** | 🔴 Tinggi | Repositori Git lokal diinisialisasi, branch `main`, author dikonfigurasi, dan initial commit dibuat (21 berkas). | ✅ Selesai |
+| D2 | **Push ke GitHub** | 🔴 Tinggi | Hubungkan remote repo & push ke GitHub (menunggu konfirmasi username & URL repo). | ⏳ Siap Dijalankan |
 | D3 | **Aktifkan GitHub Pages** | 🔴 Tinggi | Settings → Pages → branch main → Save. | ⏳ Menunggu D2 |
 | D4 | **Cantumkan URL di CV & LinkedIn** | 🟡 Sedang | Setelah live, update profil + aktifkan `canonical`/`og:url`. | ⏳ Menunggu D3 |
 
