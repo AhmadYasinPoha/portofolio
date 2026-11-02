@@ -1,0 +1,9 @@
+# System & OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.log
+
+# Source raw photo folder (berkas web aktif ada di assets/)
+foto_profil/

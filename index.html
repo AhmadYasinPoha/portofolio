@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portofolio Ahmad Yasin Pohan — lulusan Teknologi Informasi yang menghubungkan kebutuhan bisnis dengan solusi digital." />
+  <meta name="author" content="Ahmad Yasin Pohan" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#0f172a" />
+  <meta property="og:title" content="Ahmad Yasin Pohan | Business-Minded Technology Professional" />
+  <meta property="og:description" content="Portofolio Ahmad Yasin Pohan — lulusan Teknologi Informasi yang menghubungkan kebutuhan bisnis dengan solusi digital." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="id_ID" />
+  <meta property="og:site_name" content="Ahmad Yasin Pohan" />
+  <meta property="og:image" content="assets/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Ahmad Yasin Pohan — Business-Minded Technology Professional" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Ahmad Yasin Pohan | Business-Minded Technology Professional" />
+  <meta name="twitter:description" content="Portofolio Ahmad Yasin Pohan — lulusan Teknologi Informasi yang menghubungkan kebutuhan bisnis dengan solusi digital." />
+  <meta name="twitter:image" content="assets/og-image.png" />
+  <!--
+    SETELAH DEPLOY: ganti dua baris di bawah dengan URL final portofolio
+    (misalnya https://AhmadYasinPoha.github.io/portofolio/), lalu hapus komentar.
+
+    <link rel="canonical" href="https://USERNAME.github.io/portofolio/" />
+    <meta property="og:url" content="https://USERNAME.github.io/portofolio/" />
+  -->
+  <title>Ahmad Yasin Pohan | Business-Minded Technology Professional</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Plus Jakarta Sans', 'sans-serif'] },
+          colors: {
+            ink: { 950: '#08111f', 900: '#0f1b2d', 800: '#17263b' },
+            accent: { 400: '#67e8f9', 500: '#22d3ee', 600: '#0891b2' }
+          },
+          boxShadow: { soft: '0 18px 55px rgba(15, 23, 42, .08)' }
+        }
+      }
+    };
+  </script>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Ahmad Yasin Pohan",
+      "jobTitle": "Business-Minded Technology Professional",
+      "description": "Lulusan S1 Teknologi Informasi yang menghubungkan kebutuhan bisnis dengan solusi digital.",
+      "email": "mailto:pohanahmadyasin@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Medan",
+        "addressRegion": "Sumatera Utara",
+        "addressCountry": "ID"
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Universitas Mikroskil"
+      },
+      "knowsAbout": [
+        "Laravel",
+        "React",
+        "Inertia.js",
+        "MySQL",
+        "Business Process Analysis",
+        "System Analysis and Design"
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/ahmad-yasin-pohan-523491256/",
+        "https://github.com/AhmadYasinPoha"
+      ]
+    }
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-cyan-200 selection:text-slate-900 dark:bg-ink-950 dark:text-slate-100 dark:selection:bg-cyan-800 dark:selection:text-white">
+  <!-- Skip to Content (Accessibility) -->
+  <a href="#home" class="skip-link">Langsung ke konten utama</a>
+
+  <!--
+    STATUS PERSONALISASI (diperbarui 2026-11-01):
+    Sudah selesai
+      - Kontak email, LinkedIn, GitHub, dan WhatsApp terisi.
+      - Meta SEO/Open Graph, JSON-LD Person, favicon, dan apple-touch-icon aktif.
+      - Print styles siap untuk "Cetak / Simpan sebagai PDF".
+
+    Masih menunggu data dari pemilik portofolio (template siap di file ini):
+      1. Foto profil profesional  -> template di section hero (cari "FOTO PROFIL").
+      2. Kontribusi pribadi CV Jayanti -> template di card proyek (cari "KONTRIBUSI PRIBADI").
+      3. Screenshot proyek -> template di card proyek (cari "SCREENSHOT PROYEK").
+      4. Tautan demo & repositori -> template di card proyek (cari "TAUTAN DEMO").
+      5. Proyek tambahan -> template di section proyek (cari "PROYEK TAMBAHAN").
+      6. Sertifikat & pelatihan -> template setelah section pendidikan (cari "SERTIFIKAT").
+    Panduan langkah demi langkah: lihat README.md.
+  -->
+
+  <header class="fixed inset-x-0 top-0 z-50 border-b border-slate-200/70 bg-white/85 nav-blur dark:border-slate-800/80 dark:bg-ink-950/85">
+    <div class="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6 lg:px-8">
+      <a href="#home" class="flex items-center gap-3" aria-label="Kembali ke awal">
+        <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-cyan-600 to-indigo-600 text-sm font-extrabold text-white shadow-lg shadow-cyan-900/15">AYP</span>
+        <span class="leading-tight">
+          <span class="block text-sm font-bold tracking-tight text-slate-900 dark:text-white">Ahmad Yasin Pohan</span>
+          <span class="block text-[10px] font-semibold uppercase tracking-[.15em] text-cyan-700 dark:text-cyan-300">Portfolio · 2026</span>
+        </span>
+      </a>
+
+      <nav class="hidden items-center gap-7 text-sm font-medium text-slate-600 dark:text-slate-300 md:flex">
+        <a class="transition hover:text-cyan-700 dark:hover:text-cyan-300" href="#about">Tentang</a>
+        <a class="transition hover:text-cyan-700 dark:hover:text-cyan-300" href="#approach">Pendekatan</a>
+        <a class="transition hover:text-cyan-700 dark:hover:text-cyan-300" href="#skills">Keahlian</a>
+        <a class="transition hover:text-cyan-700 dark:hover:text-cyan-300" href="#projects">Proyek</a>
+        <a class="transition hover:text-cyan-700 dark:hover:text-cyan-300" href="#education">Pendidikan</a>
+        <a class="transition hover:text-cyan-700 dark:hover:text-cyan-300" href="#contact">Kontak</a>
+      </nav>
+
+      <div class="flex items-center gap-2">
+        <button id="themeToggle" type="button" class="rounded-xl p-2 text-slate-500 transition hover:bg-slate-100 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white" aria-label="Aktifkan mode gelap" aria-pressed="false" title="Ganti tema">
+          <i data-lucide="moon" id="moonIcon" class="h-5 w-5"></i>
+          <i data-lucide="sun" id="sunIcon" class="hidden h-5 w-5"></i>
+        </button>
+        <a href="#contact" class="hidden rounded-xl bg-slate-900 px-4 py-2.5 text-xs font-bold text-white shadow-lg shadow-slate-900/10 transition hover:-translate-y-0.5 hover:bg-cyan-800 dark:bg-cyan-500 dark:text-slate-950 dark:hover:bg-cyan-300 sm:inline-flex">Diskusi Peluang <i data-lucide="arrow-up-right" class="ml-2 h-4 w-4"></i></a>
+        <button id="menuToggle" type="button" class="rounded-xl p-2 text-slate-600 hover:bg-slate-100 dark:text-slate-200 dark:hover:bg-slate-800 md:hidden" aria-label="Buka menu" aria-expanded="false" aria-controls="mobileMenu"><i data-lucide="menu" class="h-5 w-5"></i></button>
+      </div>
+    </div>
+    <nav id="mobileMenu" class="hidden border-t border-slate-200 bg-white px-4 py-3 dark:border-slate-800 dark:bg-ink-950 md:hidden" aria-label="Navigasi seluler">
+      <div class="mx-auto grid max-w-6xl grid-cols-2 gap-2 text-sm font-medium">
+        <a class="rounded-lg px-3 py-2 hover:bg-slate-100 dark:hover:bg-slate-800" href="#about">Tentang</a>
+        <a class="rounded-lg px-3 py-2 hover:bg-slate-100 dark:hover:bg-slate-800" href="#approach">Pendekatan</a>
+        <a class="rounded-lg px-3 py-2 hover:bg-slate-100 dark:hover:bg-slate-800" href="#skills">Keahlian</a>
+        <a class="rounded-lg px-3 py-2 hover:bg-slate-100 dark:hover:bg-slate-800" href="#projects">Proyek</a>
+        <a class="rounded-lg px-3 py-2 hover:bg-slate-100 dark:hover:bg-slate-800" href="#education">Pendidikan</a>
+        <a class="rounded-lg px-3 py-2 hover:bg-slate-100 dark:hover:bg-slate-800" href="#contact">Kontak</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="home" class="pt-16 focus:outline-none" tabindex="-1">
+    <!-- HERO -->
+    <section class="relative isolate overflow-hidden">
+      <div class="hero-grid absolute inset-0 -z-20"></div>
+      <div class="absolute -right-32 -top-24 -z-10 h-[28rem] w-[28rem] rounded-full bg-cyan-300/20 blur-3xl dark:bg-cyan-500/10"></div>
+      <div class="absolute -left-40 top-64 -z-10 h-[26rem] w-[26rem] rounded-full bg-indigo-300/20 blur-3xl dark:bg-indigo-500/10"></div>
+      <div class="mx-auto grid max-w-6xl items-center gap-12 px-4 py-20 sm:px-6 md:py-28 lg:grid-cols-[1.3fr_.7fr] lg:px-8">
+        <div class="rise">
+          <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-emerald-200 bg-emerald-50 px-3.5 py-2 text-xs font-bold text-emerald-800 dark:border-emerald-900/70 dark:bg-emerald-950/50 dark:text-emerald-300">
+            <span class="h-2 w-2 rounded-full bg-emerald-500"></span> Terbuka untuk kesempatan magang dan kolaborasi
+          </div>
+          <p class="section-kicker mb-4 text-[10px] font-extrabold uppercase text-cyan-800 dark:text-cyan-300">Business-minded technology professional</p>
+          <h1 class="max-w-3xl text-4xl font-extrabold leading-[1.12] tracking-tight text-slate-950 dark:text-white sm:text-5xl lg:text-6xl">
+            Menghubungkan <span class="gradient-text">kebutuhan bisnis</span> dengan solusi digital.
+          </h1>
+          <p class="mt-6 max-w-2xl text-base leading-8 text-slate-600 dark:text-slate-300 sm:text-lg">
+            Saya Ahmad Yasin Pohan, lulusan S1 Teknologi Informasi yang memadukan pengembangan sistem, pemahaman proses bisnis, dan kreativitas digital untuk merancang solusi yang relevan dengan kebutuhan pengguna dan organisasi.
+          </p>
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a href="#projects" class="inline-flex items-center rounded-xl bg-slate-900 px-5 py-3 text-sm font-bold text-white shadow-xl shadow-slate-900/15 transition hover:-translate-y-0.5 hover:bg-cyan-800 dark:bg-cyan-500 dark:text-slate-950 dark:hover:bg-cyan-300">Lihat Proyek <i data-lucide="arrow-up-right" class="ml-2 h-4 w-4"></i></a>
+            <a href="#about" class="inline-flex items-center rounded-xl border border-slate-300 bg-white/75 px-5 py-3 text-sm font-bold text-slate-700 transition hover:-translate-y-0.5 hover:border-cyan-500 hover:text-cyan-800 dark:border-slate-700 dark:bg-slate-900/70 dark:text-slate-200 dark:hover:text-cyan-300">Kenali Saya</a>
+          </div>
+          <div class="mt-9 flex flex-wrap items-center gap-x-6 gap-y-3 text-xs font-semibold text-slate-500 dark:text-slate-400">
+            <span class="inline-flex items-center gap-2"><i data-lucide="graduation-cap" class="h-4 w-4 text-cyan-700 dark:text-cyan-300"></i> S1 Teknologi Informasi</span>
+            <span class="inline-flex items-center gap-2"><i data-lucide="map-pin" class="h-4 w-4 text-cyan-700 dark:text-cyan-300"></i> Medan, Sumatera Utara</span>
+            <span class="inline-flex items-center gap-2"><i data-lucide="calendar-check" class="h-4 w-4 text-cyan-700 dark:text-cyan-300"></i> Lulus Agustus 2026</span>
+          </div>
+        </div>
+
+        <div class="rise mx-auto w-full max-w-sm lg:ml-auto">
+          <div class="relative rounded-[2rem] border border-slate-200 bg-white/85 p-5 shadow-soft backdrop-blur dark:border-slate-700 dark:bg-slate-900/85">
+            <div class="absolute -right-3 -top-3 rounded-2xl bg-gradient-to-br from-cyan-500 to-indigo-600 px-4 py-3 text-white shadow-lg">
+              <p class="text-[9px] font-bold uppercase tracking-[.16em] text-white/75">Core value</p>
+              <p class="mt-0.5 text-sm font-extrabold">Business × Tech</p>
+            </div>
+            <div class="flex aspect-[4/4.3] flex-col items-center justify-center rounded-[1.5rem] bg-gradient-to-br from-slate-900 via-slate-800 to-cyan-950 p-7 text-center text-white">
+              <img src="assets/foto-profil.jpg"
+                   alt="Foto profil Ahmad Yasin Pohan"
+                   class="profile-photo aspect-[4/4.3]"
+                   width="480" height="516" loading="lazy" decoding="async" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- POSITIONING STRIP: FOUR CROSS-DISCIPLINARY PILLARS -->
+    <section class="border-y border-slate-200 bg-white/80 dark:border-slate-800 dark:bg-ink-900/70">
+      <div class="mx-auto grid max-w-6xl gap-5 px-4 py-7 sm:px-6 sm:grid-cols-2 lg:grid-cols-4 lg:px-8">
+        <div class="flex items-center gap-4"><span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-cyan-50 text-cyan-800 dark:bg-cyan-950/70 dark:text-cyan-300"><i data-lucide="briefcase-business" class="h-5 w-5"></i></span><div><p class="text-sm font-bold text-slate-900 dark:text-white">Business</p><p class="mt-0.5 text-xs text-slate-500 dark:text-slate-400">Memahami proses dan kebutuhan bisnis</p></div></div>
+        <div class="flex items-center gap-4"><span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-indigo-50 text-indigo-700 dark:bg-indigo-950/70 dark:text-indigo-300"><i data-lucide="code-2" class="h-5 w-5"></i></span><div><p class="text-sm font-bold text-slate-900 dark:text-white">Technology</p><p class="mt-0.5 text-xs text-slate-500 dark:text-slate-400">Merancang dan membangun solusi digital</p></div></div>
+        <div class="flex items-center gap-4"><span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-emerald-50 text-emerald-700 dark:bg-emerald-950/70 dark:text-emerald-300"><i data-lucide="messages-square" class="h-5 w-5"></i></span><div><p class="text-sm font-bold text-slate-900 dark:text-white">Creative Communication</p><p class="mt-0.5 text-xs text-slate-500 dark:text-slate-400">Menyampaikan ide dan pesan secara efektif</p></div></div>
+        <div class="flex items-center gap-4"><span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-amber-50 text-amber-700 dark:bg-amber-950/70 dark:text-amber-300"><i data-lucide="brain-circuit" class="h-5 w-5"></i></span><div><p class="text-sm font-bold text-slate-900 dark:text-white">Problem Solving</p><p class="mt-0.5 text-xs text-slate-500 dark:text-slate-400">Menganalisis masalah dan mengevaluasi solusi</p></div></div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="reveal scroll-mt-24 py-20 md:py-24">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+        <div class="mb-12 max-w-2xl">
+          <p class="section-kicker text-[10px] font-extrabold uppercase text-cyan-800 dark:text-cyan-300">Tentang saya</p>
+          <h2 class="mt-3 text-3xl font-extrabold tracking-tight text-slate-950 dark:text-white sm:text-4xl">Teknologi adalah alat. <span class="gradient-text">Solusi adalah tujuannya.</span></h2>
+        </div>
+        <div class="grid gap-10 lg:grid-cols-[1.15fr_.85fr]">
+          <div class="space-y-5 text-sm leading-8 text-slate-600 dark:text-slate-300 sm:text-base">
+            <p>Saya merupakan lulusan S1 Teknologi Informasi Universitas Mikroskil dengan minat pada pengembangan sistem digital dan pemecahan masalah. Saya membangun pendekatan lintas bidang dengan menghubungkan fondasi teknologi, pemahaman bisnis, kreativitas, serta kemampuan analitis. Selain perancangan aplikasi dan website, saya juga mempelajari pemasaran, komunikasi, storytelling, desain, dan pengelolaan aktivitas digital.</p>
+            <p>Pendekatan tersebut membantu saya melihat permasalahan dari beberapa sudut pandang. Saya tertarik menggali kebutuhan melalui komunikasi atau wawancara dengan pengguna dan pihak operasional, memahami alur kerja, mengidentifikasi hambatan, kemudian menerjemahkan temuan tersebut menjadi usulan fitur, tools, atau solusi digital yang relevan.</p>
+            <p>Bagi saya, teknologi bukan tujuan akhir, melainkan sarana untuk menjawab kebutuhan. Solusi yang baik perlu sesuai dengan proses bisnis, dapat digunakan oleh orang yang membutuhkannya, serta memberikan manfaat yang bisa dievaluasi. Saya ingin terus berkembang pada peran yang menjembatani kebutuhan bisnis dengan penerapan teknologi.</p>
+          </div>
+          <div class="grid gap-3 sm:grid-cols-2">
+            <article class="card-line rounded-2xl bg-white p-5 shadow-soft dark:bg-slate-900/70">
+              <span class="mb-4 flex h-10 w-10 items-center justify-center rounded-xl bg-cyan-50 text-cyan-800 dark:bg-cyan-950/70 dark:text-cyan-300"><i data-lucide="search-check" class="h-5 w-5"></i></span>
+              <h3 class="font-bold text-slate-900 dark:text-white">Analisis Kebutuhan</h3>
+              <p class="mt-2 text-xs leading-6 text-slate-500 dark:text-slate-400">Menggali kebutuhan pengguna dan memahami alur kerja sebelum menentukan solusi.</p>
+            </article>
+            <article class="card-line rounded-2xl bg-white p-5 shadow-soft dark:bg-slate-900/70">
+              <span class="mb-4 flex h-10 w-10 items-center justify-center rounded-xl bg-indigo-50 text-indigo-700 dark:bg-indigo-950/70 dark:text-indigo-300"><i data-lucide="workflow" class="h-5 w-5"></i></span>
+              <h3 class="font-bold text-slate-900 dark:text-white">Perancangan Sistem</h3>
+              <p class="mt-2 text-xs leading-6 text-slate-500 dark:text-slate-400">Menerjemahkan kebutuhan menjadi alur proses, fitur, dan rancangan aplikasi.</p>
+            </article>
+            <article class="card-line rounded-2xl bg-white p-5 shadow-soft dark:bg-slate-900/70">
+              <span class="mb-4 flex h-10 w-10 items-center justify-center rounded-xl bg-emerald-50 text-emerald-700 dark:bg-emerald-950/70 dark:text-emerald-300"><i data-lucide="megaphone" class="h-5 w-5"></i></span>
+              <h3 class="font-bold text-slate-900 dark:text-white">Komunikasi & Kreativitas</h3>
+              <p class="mt-2 text-xs leading-6 text-slate-500 dark:text-slate-400">Menyampaikan gagasan, menyusun pesan, dan mendukung kebutuhan komunikasi digital.</p>
+            </article>
+            <article class="card-line rounded-2xl bg-white p-5 shadow-soft dark:bg-slate-900/70">
+              <span class="mb-4 flex h-10 w-10 items-center justify-center rounded-xl bg-amber-50 text-amber-700 dark:bg-amber-950/70 dark:text-amber-300"><i data-lucide="target" class="h-5 w-5"></i></span>
+              <h3 class="font-bold text-slate-900 dark:text-white">Orientasi Solusi</h3>
+              <p class="mt-2 text-xs leading-6 text-slate-500 dark:text-slate-400">Mempertimbangkan manfaat, kemudahan implementasi, dan kesesuaian dengan kebutuhan.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- APPROACH -->
+    <section id="approach" class="reveal scroll-mt-24 bg-slate-100/80 py-20 dark:bg-ink-900/65 md:py-24">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+        <div class="mx-auto mb-14 max-w-2xl text-center">
+          <p class="section-kicker text-[10px] font-extrabold uppercase text-cyan-800 dark:text-cyan-300">Cara saya bekerja</p>
+          <h2 class="mt-3 text-3xl font-extrabold tracking-tight text-slate-950 dark:text-white sm:text-4xl">Dari masalah bisnis menjadi solusi digital</h2>
+          <p class="mt-4 text-sm leading-7 text-slate-600 dark:text-slate-400">Saya menggabungkan pemahaman bisnis, analisis, komunikasi, dan teknologi dalam satu alur kerja—dari memahami kebutuhan hingga mengevaluasi solusi.</p>
+        </div>
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+          <article class="rounded-2xl border border-slate-200 bg-white p-5 dark:border-slate-700 dark:bg-slate-900">
+            <span class="step-number flex h-9 w-9 items-center justify-center rounded-xl text-xs font-extrabold text-white">01</span>
+            <h3 class="mt-5 text-sm font-extrabold text-slate-900 dark:text-white">Understand</h3>
+            <p class="mt-2 text-xs leading-6 text-slate-500 dark:text-slate-400">Menggali kebutuhan melalui observasi, komunikasi, dan wawancara.</p>
+          </article>
+          <article class="rounded-2xl border border-slate-200 bg-white p-5 dark:border-slate-700 dark:bg-slate-900">
+            <span class="step-number flex h-9 w-9 items-center justify-center rounded-xl text-xs font-extrabold text-white">02</span>
+            <h3 class="mt-5 text-sm font-extrabold text-slate-900 dark:text-white">Analyze</h3>
+            <p class="mt-2 text-xs leading-6 text-slate-500 dark:text-slate-400">Memetakan proses, menemukan hambatan, dan menentukan prioritas.</p>
+          </article>
+          <article class="rounded-2xl border border-slate-200 bg-white p-5 dark:border-slate-700 dark:bg-slate-900">
+            <span class="step-number flex h-9 w-9 items-center justify-center rounded-xl text-xs font-extrabold text-white">03</span>
+            <h3 class="mt-5 text-sm font-extrabold text-slate-900 dark:text-white">Design</h3>
+            <p class="mt-2 text-xs leading-6 text-slate-500 dark:text-slate-400">Mengusulkan fitur, tools, atau perbaikan proses yang realistis.</p>
+          </article>
+          <article class="rounded-2xl border border-slate-200 bg-white p-5 dark:border-slate-700 dark:bg-slate-900">
+            <span class="step-number flex h-9 w-9 items-center justify-center rounded-xl text-xs font-extrabold text-white">04</span>
+            <h3 class="mt-5 text-sm font-extrabold text-slate-900 dark:text-white">Implement</h3>
+            <p class="mt-2 text-xs leading-6 text-slate-500 dark:text-slate-400">Mewujudkan solusi dan mengomunikasikan cara penggunaannya.</p>
+          </article>
+          <article class="rounded-2xl border border-slate-200 bg-white p-5 dark:border-slate-700 dark:bg-slate-900">
+            <span class="step-number flex h-9 w-9 items-center justify-center rounded-xl text-xs font-extrabold text-white">05</span>
+            <h3 class="mt-5 text-sm font-extrabold text-slate-900 dark:text-white">Evaluate</h3>
+            <p class="mt-2 text-xs leading-6 text-slate-500 dark:text-slate-400">Menguji solusi dan mengevaluasi manfaat berdasarkan hasil yang terukur.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS: CROSS-DISCIPLINARY CAPABILITIES -->
+    <section id="skills" class="reveal scroll-mt-24 py-20 md:py-24">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+        <div class="mb-12 max-w-3xl">
+          <p class="section-kicker text-[10px] font-extrabold uppercase text-cyan-800 dark:text-cyan-300">Kompetensi</p>
+          <h2 class="mt-3 text-3xl font-extrabold tracking-tight text-slate-950 dark:text-white sm:text-4xl">Keahlian lintas bidang</h2>
+          <p class="mt-4 text-sm leading-7 text-slate-600 dark:text-slate-400">Saya menghubungkan empat area kompetensi: pemahaman bisnis, pengembangan teknologi, komunikasi kreatif, serta analisis dan pemecahan masalah. Keahlian lintas bidang bukan berarti mengklaim sebagai ahli di semua area, melainkan mampu memanfaatkan perspektif yang berbeda secara terpadu untuk memahami kebutuhan dan merancang solusi.</p>
+        </div>
+        <div class="grid gap-5 md:grid-cols-2">
+          <!-- 01 BUSINESS & MANAGEMENT -->
+          <article class="card-line rounded-2xl bg-white p-6 shadow-soft dark:bg-slate-900/70">
+            <div class="flex items-center gap-3"><span class="flex h-11 w-11 items-center justify-center rounded-xl bg-cyan-50 text-cyan-800 dark:bg-cyan-950/70 dark:text-cyan-300"><i data-lucide="briefcase-business" class="h-5 w-5"></i></span><div><h3 class="font-extrabold text-slate-900 dark:text-white">01. Business & Management</h3><p class="text-xs text-slate-500 dark:text-slate-400">Memahami proses, tujuan, dan kebutuhan organisasi</p></div></div>
+            <p class="mt-4 text-xs leading-6 text-slate-600 dark:text-slate-400">Melihat pekerjaan dari sudut pandang operasional dan bisnis, serta memahami bagaimana strategi dan proses kerja memengaruhi kebutuhan solusi.</p>
+            <div class="mt-4 flex flex-wrap gap-2">
+              <span class="rounded-lg bg-cyan-50 px-3 py-2 text-xs font-semibold text-cyan-900 dark:bg-cyan-950/60 dark:text-cyan-200">Business Process Understanding</span>
+              <span class="rounded-lg bg-cyan-50 px-3 py-2 text-xs font-semibold text-cyan-900 dark:bg-cyan-950/60 dark:text-cyan-200">Marketing Fundamentals</span>
+              <span class="rounded-lg bg-cyan-50 px-3 py-2 text-xs font-semibold text-cyan-900 dark:bg-cyan-950/60 dark:text-cyan-200">Project Management</span>
+              <span class="rounded-lg bg-slate-100 px-3 py-2 text-xs font-semibold text-slate-700 dark:bg-slate-800 dark:text-slate-200">Business Development Awareness</span>
+              <span class="rounded-lg bg-slate-100 px-3 py-2 text-xs font-semibold text-slate-700 dark:bg-slate-800 dark:text-slate-200">Operational Understanding</span>
+            </div>
+          </article>
+
+          <!-- 02 TECHNOLOGY & DIGITAL DEVELOPMENT -->
+          <article class="card-line rounded-2xl bg-white p-6 shadow-soft dark:bg-slate-900/70">
+            <div class="flex items-center gap-3"><span class="flex h-11 w-11 items-center justify-center rounded-xl bg-indigo-50 text-indigo-700 dark:bg-indigo-950/70 dark:text-indigo-300"><i data-lucide="code-2" class="h-5 w-5"></i></span><div><h3 class="font-extrabold text-slate-900 dark:text-white">02. Technology & Digital Development</h3><p class="text-xs text-slate-500 dark:text-slate-400">Menerjemahkan kebutuhan menjadi sistem dan tools</p></div></div>
+            <p class="mt-4 text-xs leading-6 text-slate-600 dark:text-slate-400">Menggunakan teknologi untuk merancang aplikasi, mengelola data, dan mendukung proses kerja melalui solusi digital.</p>
+            <div class="mt-4 flex flex-wrap gap-2">
+              <span class="rounded-lg bg-indigo-50 px-3 py-2 text-xs font-semibold text-indigo-900 dark:bg-indigo-950/60 dark:text-indigo-200">Laravel 12</span>
+              <span class="rounded-lg bg-indigo-50 px-3 py-2 text-xs font-semibold text-indigo-900 dark:bg-indigo-950/60 dark:text-indigo-200">React</span>
+              <span class="rounded-lg bg-indigo-50 px-3 py-2 text-xs font-semibold text-indigo-900 dark:bg-indigo-950/60 dark:text-indigo-200">Inertia.js</span>
+              <span class="rounded-lg bg-indigo-50 px-3 py-2 text-xs font-semibold text-indigo-900 dark:bg-indigo-950/60 dark:text-indigo-200">MySQL & SQL</span>
+              <span class="rounded-lg bg-slate-100 px-3 py-2 text-xs font-semibold text-slate-700 dark:bg-slate-800 dark:text-slate-200">HTML & CSS</span>
+              <span class="rounded-lg bg-slate-100 px-3 py-2 text-xs font-semibold text-slate-700 dark:bg-slate-800 dark:text-slate-200">API Development</span>
+              <span class="rounded-lg bg-slate-100 px-3 py-2 text-xs font-semibold text-slate-700 dark:bg-slate-800 dark:text-slate-200">Python</span>
+              <span class="rounded-lg bg-slate-100 px-3 py-2 text-xs font-semibold text-slate-700 dark:bg-slate-800 dark:text-slate-200">Flutter</span>
+              <span class="rounded-lg bg-slate-100 px-3 py-2 text-xs font-semibold text-slate-700 dark:bg-slate-800 dark:text-slate-200">Computer Networking</span>
+              <span class="rounded-lg bg-slate-100 px-3 py-2 text-xs font-semibold text-slate-700 dark:bg-slate-800 dark:text-slate-200">IT Infrastructure</span>
+            </div>
+            <p class="mt-4 text-[11px] leading-5 text-slate-500 dark:text-slate-400">Stack Laravel 12, React, Inertia.js, MySQL, dan Tailwind CSS digunakan pada proyek CV Jayanti. Cantumkan teknologi lain sesuai tingkat pengalaman dan bukti praktik yang dapat ditunjukkan.</p>
+          </article>
+
+          <!-- 03 CREATIVE & COMMUNICATION -->
+          <article class="card-line rounded-2xl bg-white p-6 shadow-soft dark:bg-slate-900/70">
+            <div class="flex items-center gap-3"><span class="flex h-11 w-11 items-center justify-center rounded-xl bg-emerald-50 text-emerald-700 dark:bg-emerald-950/70 dark:text-emerald-300"><i data-lucide="palette" class="h-5 w-5"></i></span><div><h3 class="font-extrabold text-slate-900 dark:text-white">03. Creative & Communication</h3><p class="text-xs text-slate-500 dark:text-slate-400">Mengolah ide menjadi pesan dan pengalaman digital</p></div></div>
+            <p class="mt-4 text-xs leading-6 text-slate-600 dark:text-slate-400">Menggabungkan kreativitas visual dan komunikasi untuk menjelaskan gagasan, membangun pesan, serta mendukung jangkauan digital.</p>
+            <div class="mt-4 flex flex-wrap gap-2">
+              <span class="rounded-lg bg-emerald-50 px-3 py-2 text-xs font-semibold text-emerald-900 dark:bg-emerald-950/60 dark:text-emerald-200">Graphic Design</span>
+              <span class="rounded-lg bg-emerald-50 px-3 py-2 text-xs font-semibold text-emerald-900 dark:bg-emerald-950/60 dark:text-emerald-200">Content Editing</span>
+              <span class="rounded-lg bg-emerald-50 px-3 py-2 text-xs font-semibold text-emerald-900 dark:bg-emerald-950/60 dark:text-emerald-200">Storytelling</span>
+              <span class="rounded-lg bg-emerald-50 px-3 py-2 text-xs font-semibold text-emerald-900 dark:bg-emerald-950/60 dark:text-emerald-200">Business Communication</span>
+              <span class="rounded-lg bg-slate-100 px-3 py-2 text-xs font-semibold text-slate-700 dark:bg-slate-800 dark:text-slate-200">Negotiation</span>
+              <span class="rounded-lg bg-slate-100 px-3 py-2 text-xs font-semibold text-slate-700 dark:bg-slate-800 dark:text-slate-200">Digital Content</span>
+              <span class="rounded-lg bg-slate-100 px-3 py-2 text-xs font-semibold text-slate-700 dark:bg-slate-800 dark:text-slate-200">SEO Fundamentals</span>
+              <span class="rounded-lg bg-slate-100 px-3 py-2 text-xs font-semibold text-slate-700 dark:bg-slate-800 dark:text-slate-200">AI-assisted Creative Tools</span>
+            </div>
+          </article>
+
+          <!-- 04 ANALYTICAL & PROBLEM SOLVING -->
+          <article class="card-line rounded-2xl bg-white p-6 shadow-soft dark:bg-slate-900/70">
+            <div class="flex items-center gap-3"><span class="flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-amber-700 dark:bg-amber-950/70 dark:text-amber-300"><i data-lucide="brain-circuit" class="h-5 w-5"></i></span><div><h3 class="font-extrabold text-slate-900 dark:text-white">04. Analytical & Problem Solving</h3><p class="text-xs text-slate-500 dark:text-slate-400">Memahami akar masalah dan mengevaluasi pilihan solusi</p></div></div>
+            <p class="mt-4 text-xs leading-6 text-slate-600 dark:text-slate-400">Menggunakan pemikiran analitis untuk memahami kebutuhan, memetakan proses, menyusun alternatif, dan menilai kesesuaian solusi.</p>
+            <div class="mt-4 flex flex-wrap gap-2">
+              <span class="rounded-lg bg-amber-50 px-3 py-2 text-xs font-semibold text-amber-900 dark:bg-amber-950/60 dark:text-amber-200">Problem Solving</span>
+              <span class="rounded-lg bg-amber-50 px-3 py-2 text-xs font-semibold text-amber-900 dark:bg-amber-950/60 dark:text-amber-200">Requirement Gathering</span>
+              <span class="rounded-lg bg-amber-50 px-3 py-2 text-xs font-semibold text-amber-900 dark:bg-amber-950/60 dark:text-amber-200">Business Process Analysis</span>
+              <span class="rounded-lg bg-amber-50 px-3 py-2 text-xs font-semibold text-amber-900 dark:bg-amber-950/60 dark:text-amber-200">System Analysis & Design</span>
+              <span class="rounded-lg bg-slate-100 px-3 py-2 text-xs font-semibold text-slate-700 dark:bg-slate-800 dark:text-slate-200">Design Thinking</span>
+              <span class="rounded-lg bg-slate-100 px-3 py-2 text-xs font-semibold text-slate-700 dark:bg-slate-800 dark:text-slate-200">Data Visualization</span>
+              <span class="rounded-lg bg-slate-100 px-3 py-2 text-xs font-semibold text-slate-700 dark:bg-slate-800 dark:text-slate-200">Business Intelligence</span>
+              <span class="rounded-lg bg-slate-100 px-3 py-2 text-xs font-semibold text-slate-700 dark:bg-slate-800 dark:text-slate-200">Research Methodology</span>
+            </div>
+          </article>
+        </div>
+        <p class="mt-6 max-w-3xl text-[11px] leading-6 text-slate-500 dark:text-slate-400">Catatan: daftar kompetensi mencakup fondasi akademik, pengalaman proyek, dan bidang yang terus dikembangkan. Saat melamar, prioritaskan kemampuan yang paling relevan dengan posisi serta siapkan contoh pekerjaan atau pengalaman untuk mendukungnya.</p>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="reveal scroll-mt-24 bg-ink-950 py-20 text-white md:py-24">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+        <div class="mb-12 flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
+          <div>
+            <p class="section-kicker text-[10px] font-extrabold uppercase text-cyan-300">Selected project</p>
+            <h2 class="mt-3 text-3xl font-extrabold tracking-tight sm:text-4xl">Proyek yang menunjukkan cara berpikir</h2>
+          </div>
+          <p class="max-w-xl text-sm leading-7 text-slate-400">Saya memilih proyek yang memperlihatkan hubungan antara masalah operasional, analisis kebutuhan, dan implementasi teknologi.</p>
+        </div>
+
+        <article class="overflow-hidden rounded-[1.75rem] border border-white/10 bg-white/[.04] shadow-2xl shadow-black/20">
+          <div class="grid lg:grid-cols-[.9fr_1.1fr]">
+            <div class="relative flex min-h-[19rem] flex-col justify-between overflow-hidden bg-gradient-to-br from-cyan-950 via-slate-900 to-indigo-950 p-7 sm:p-9">
+              <div class="absolute -right-16 -top-20 h-72 w-72 rounded-full border border-cyan-300/15"></div>
+              <div class="absolute -right-4 -top-8 h-52 w-52 rounded-full border border-cyan-300/15"></div>
+              <div class="relative">
+                <span class="inline-flex rounded-full border border-cyan-300/25 bg-cyan-300/10 px-3 py-1.5 text-[10px] font-bold uppercase tracking-[.16em] text-cyan-200">Academic collaborative project</span>
+                <div class="mt-10 flex h-16 w-16 items-center justify-center rounded-2xl border border-white/15 bg-white/10"><i data-lucide="boxes" class="h-8 w-8 text-cyan-200"></i></div>
+                <h3 class="mt-6 max-w-sm text-2xl font-extrabold leading-tight">Sistem Informasi Penjualan dan Piutang</h3>
+                <p class="mt-2 text-sm text-slate-300">CV Jayanti Muliatama</p>
+              </div>
+              <div class="relative mt-10 flex flex-wrap gap-2">
+                <span class="rounded-lg bg-white/10 px-3 py-2 text-xs font-semibold text-cyan-100">Laravel 12</span>
+                <span class="rounded-lg bg-white/10 px-3 py-2 text-xs font-semibold text-cyan-100">React</span>
+                <span class="rounded-lg bg-white/10 px-3 py-2 text-xs font-semibold text-cyan-100">Inertia.js</span>
+                <span class="rounded-lg bg-white/10 px-3 py-2 text-xs font-semibold text-cyan-100">MySQL</span>
+                <span class="rounded-lg bg-white/10 px-3 py-2 text-xs font-semibold text-cyan-100">Tailwind CSS</span>
+              </div>
+              <div class="relative mt-6">
+                <a href="https://mikroskilacid-my.sharepoint.com/:f:/g/personal/221130362_alumni_mikroskil_ac_id/IgD8fwZjJFFHQ6bG6_-qUngwARvUsWtzcGWBOcXgeba6asA?e=Rov9BN" target="_blank" rel="noopener noreferrer" class="inline-flex items-center rounded-xl bg-cyan-400 px-4 py-2.5 text-xs font-bold text-slate-950 shadow-lg shadow-cyan-950/30 transition hover:-translate-y-0.5 hover:bg-cyan-300">
+                  <i data-lucide="play-circle" class="mr-2 h-4 w-4"></i> Tonton Demo &amp; Presentasi <i data-lucide="external-link" class="ml-2 h-3.5 w-3.5"></i>
+                </a>
+                <p class="mt-2 text-[10px] text-cyan-200/70">Mencakup rekaman alur sistem &amp; slide presentasi lengkap (OneDrive)</p>
+              </div>
+            </div>
+
+            <div class="p-7 sm:p-9">
+              <p class="text-xs font-bold uppercase tracking-[.15em] text-cyan-300">Ringkasan studi kasus</p>
+              <h3 class="mt-3 text-xl font-extrabold leading-snug">Pengembangan Sistem Informasi Berbasis Web untuk Optimalisasi Pengelolaan Stok, Penjualan, dan Keuangan pada CV Jayanti Muliatama</h3>
+              <p class="mt-4 text-sm leading-7 text-slate-300">Proyek kolaboratif yang berangkat dari kebutuhan untuk mengelola informasi stok, transaksi penjualan, pembelian, dan piutang secara lebih terstruktur. Sistem dirancang untuk membantu proses operasional dan menyediakan informasi yang mendukung pemantauan bisnis.</p>
+
+              <div class="mt-7 grid gap-5 sm:grid-cols-2">
+                <div>
+                  <h4 class="flex items-center gap-2 text-sm font-bold text-white"><i data-lucide="alert-circle" class="h-4 w-4 text-amber-300"></i> Konteks masalah</h4>
+                  <ul class="mt-3 space-y-2 text-xs leading-6 text-slate-400">
+                    <li class="flex gap-2"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-amber-300"></span>Pengecekan ketersediaan stok masih membutuhkan pemeriksaan manual.</li>
+                    <li class="flex gap-2"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-amber-300"></span>Pesanan diterima melalui beberapa kanal, termasuk tatap muka, telepon, dan WhatsApp.</li>
+                    <li class="flex gap-2"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-amber-300"></span>Informasi transaksi, piutang, dan laporan perlu dikelola secara terstruktur.</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 class="flex items-center gap-2 text-sm font-bold text-white"><i data-lucide="lightbulb" class="h-4 w-4 text-cyan-300"></i> Arah solusi</h4>
+                  <ul class="mt-3 space-y-2 text-xs leading-6 text-slate-400">
+                    <li class="flex gap-2"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-cyan-300"></span>Pengelolaan data produk, pelanggan, pembelian, dan penjualan.</li>
+                    <li class="flex gap-2"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-cyan-300"></span>Pencatatan piutang dan pembayaran pelanggan.</li>
+                    <li class="flex gap-2"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-cyan-300"></span>Laporan stok, transaksi, piutang, dan informasi keuangan.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="mt-7 rounded-xl border border-white/10 bg-white/[.04] p-4">
+                <h4 class="text-xs font-bold uppercase tracking-[.12em] text-cyan-200">Nilai yang ditunjukkan</h4>
+                <p class="mt-2 text-xs leading-6 text-slate-300">Proyek ini memperlihatkan bagaimana kebutuhan operasional dapat diterjemahkan menjadi fitur sistem. Pengujian fungsional dan evaluasi bersama pengguna menjadi bagian dari proses pemeriksaan solusi.</p>
+              </div>
+
+              <div class="mt-7 grid gap-3 sm:grid-cols-3">
+                <img src="assets/projects/Dashboard.png" alt="Dashboard sistem informasi CV Jayanti Muliatama" class="rounded-xl border border-white/10" loading="lazy" decoding="async" />
+                <img src="assets/projects/laporan penjualan.png" alt="Halaman laporan penjualan CV Jayanti Muliatama" class="rounded-xl border border-white/10" loading="lazy" decoding="async" />
+                <img src="assets/projects/Piutang pelanggan.png" alt="Halaman piutang pelanggan CV Jayanti Muliatama" class="rounded-xl border border-white/10" loading="lazy" decoding="async" />
+              </div>
+
+              <div class="mt-7 rounded-xl border border-cyan-300/25 bg-cyan-300/[.06] p-4">
+                <h4 class="text-xs font-bold uppercase tracking-[.12em] text-cyan-200">Kontribusi saya</h4>
+                <ul class="mt-3 space-y-2 text-xs leading-6 text-slate-300">
+                  <li class="flex gap-2"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-cyan-300"></span>Melaksanakan pengumpulan kebutuhan sistem melalui wawancara langsung dengan pihak CV Jayanti Muliatama untuk memahami kondisi operasional perusahaan.</li>
+                  <li class="flex gap-2"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-cyan-300"></span>Menyusun gambaran umum perusahaan, analisis sistem berjalan, dan identifikasi permasalahan yang menjadi dasar pengembangan sistem.</li>
+                  <li class="flex gap-2"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-cyan-300"></span>Menentukan kebutuhan fungsional, non-fungsional, serta solusi fitur pada sistem agar dapat berjalan secara optimal sesuai kebutuhan pengguna.</li>
+                </ul>
+              </div>
+
+              <p class="mt-5 text-[10px] leading-5 text-slate-500">Catatan: proyek dikerjakan secara kolaboratif. Kontribusi di atas merupakan bagian yang saya tangani secara langsung.</p>
+            </div>
+          </div>
+        </article>
+
+        <div class="mt-6 grid gap-4 md:grid-cols-3">
+          <div class="rounded-2xl border border-white/10 bg-white/[.04] p-5"><i data-lucide="database" class="h-5 w-5 text-cyan-300"></i><h3 class="mt-4 text-sm font-bold">Data terstruktur</h3><p class="mt-2 text-xs leading-6 text-slate-400">Mendukung pencatatan dan penelusuran informasi operasional dalam satu sistem.</p></div>
+          <div class="rounded-2xl border border-white/10 bg-white/[.04] p-5"><i data-lucide="workflow" class="h-5 w-5 text-cyan-300"></i><h3 class="mt-4 text-sm font-bold">Proses bisnis</h3><p class="mt-2 text-xs leading-6 text-slate-400">Memperhatikan alur transaksi, persediaan, pembayaran, dan kebutuhan pengguna.</p></div>
+          <div class="rounded-2xl border border-white/10 bg-white/[.04] p-5"><i data-lucide="file-check-2" class="h-5 w-5 text-cyan-300"></i><h3 class="mt-4 text-sm font-bold">Pelaporan & evaluasi</h3><p class="mt-2 text-xs leading-6 text-slate-400">Menyediakan informasi untuk pemantauan dan menjadi dasar evaluasi sistem.</p></div>
+        </div>
+
+        <!--
+          PROYEK TAMBAHAN (Sprint 3 - K5):
+          Duplikasi blok di bawah untuk setiap proyek nyata (side project, freelance,
+          atau tugas kuliah lain). Ganti judul, peran, stack, dan deskripsinya.
+          Hapus komentar pembungkus setelah diisi.
+
+        <article class="mt-6 rounded-2xl border border-white/10 bg-white/[.04] p-6 sm:p-8">
+          <div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+            <div>
+              <span class="inline-flex rounded-full border border-cyan-300/25 bg-cyan-300/10 px-3 py-1.5 text-[10px] font-bold uppercase tracking-[.16em] text-cyan-200">Side project</span>
+              <h3 class="mt-4 text-xl font-extrabold">[Judul proyek]</h3>
+              <p class="mt-2 text-sm text-slate-300">[Peran kamu - mis. analis kebutuhan & pengembang]</p>
+            </div>
+            <span class="rounded-lg bg-white/10 px-3 py-2 text-xs font-semibold text-slate-200">[Tahun]</span>
+          </div>
+          <p class="mt-4 max-w-3xl text-sm leading-7 text-slate-300">[Masalah yang diselesaikan, pendekatan, dan hasil yang terukur.]</p>
+          <div class="mt-5 flex flex-wrap gap-2">
+            <span class="rounded-lg bg-white/10 px-3 py-2 text-xs font-semibold text-cyan-100">[Teknologi]</span>
+          </div>
+        </article>
+        -->
+      </div>
+    </section>
+
+    <!-- CAREER DIRECTION -->
+    <section class="reveal py-20 md:py-24">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+        <div class="grid gap-10 lg:grid-cols-[.8fr_1.2fr] lg:items-start">
+          <div>
+            <p class="section-kicker text-[10px] font-extrabold uppercase text-cyan-800 dark:text-cyan-300">Arah kontribusi</p>
+            <h2 class="mt-3 text-3xl font-extrabold tracking-tight text-slate-950 dark:text-white sm:text-4xl">Peran yang ingin saya eksplorasi</h2>
+            <p class="mt-4 text-sm leading-7 text-slate-600 dark:text-slate-400">Saya terbuka pada kesempatan yang mempertemukan analisis, teknologi, dan kebutuhan organisasi. Penempatan tetap disesuaikan dengan kebutuhan perusahaan dan kualifikasi posisi.</p>
+          </div>
+          <div class="grid gap-3 sm:grid-cols-2">
+            <div class="rounded-2xl border border-slate-200 bg-white p-5 dark:border-slate-700 dark:bg-slate-900/70"><p class="text-sm font-extrabold text-slate-900 dark:text-white">Business Analyst</p><p class="mt-2 text-xs leading-6 text-slate-500 dark:text-slate-400">Menggali kebutuhan, memetakan proses, dan menerjemahkan masalah menjadi kebutuhan solusi.</p></div>
+            <div class="rounded-2xl border border-slate-200 bg-white p-5 dark:border-slate-700 dark:bg-slate-900/70"><p class="text-sm font-extrabold text-slate-900 dark:text-white">Digital Transformation</p><p class="mt-2 text-xs leading-6 text-slate-500 dark:text-slate-400">Mengidentifikasi peluang digitalisasi dan perbaikan proses kerja.</p></div>
+            <div class="rounded-2xl border border-slate-200 bg-white p-5 dark:border-slate-700 dark:bg-slate-900/70"><p class="text-sm font-extrabold text-slate-900 dark:text-white">IT Planning / MIS</p><p class="mt-2 text-xs leading-6 text-slate-500 dark:text-slate-400">Menghubungkan data, sistem informasi, dan kebutuhan pengelolaan organisasi.</p></div>
+            <div class="rounded-2xl border border-slate-200 bg-white p-5 dark:border-slate-700 dark:bg-slate-900/70"><p class="text-sm font-extrabold text-slate-900 dark:text-white">Web / Application Development</p><p class="mt-2 text-xs leading-6 text-slate-500 dark:text-slate-400">Merancang dan mengembangkan aplikasi sesuai kebutuhan pengguna.</p></div>
+            <div class="rounded-2xl border border-slate-200 bg-white p-5 dark:border-slate-700 dark:bg-slate-900/70 sm:col-span-2"><p class="text-sm font-extrabold text-slate-900 dark:text-white">Project & Operational Support</p><p class="mt-2 text-xs leading-6 text-slate-500 dark:text-slate-400">Mendukung koordinasi, dokumentasi, komunikasi lintas tim, dan pemantauan pelaksanaan pekerjaan.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="reveal scroll-mt-24 border-y border-slate-200 bg-slate-100/80 py-20 dark:border-slate-800 dark:bg-ink-900/65 md:py-24">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+        <div class="max-w-2xl">
+          <p class="section-kicker text-[10px] font-extrabold uppercase text-cyan-800 dark:text-cyan-300">Latar belakang</p>
+          <h2 class="mt-3 text-3xl font-extrabold tracking-tight text-slate-950 dark:text-white sm:text-4xl">Pendidikan</h2>
+        </div>
+        <div class="mt-9 max-w-3xl rounded-2xl border border-slate-200 bg-white p-6 shadow-soft dark:border-slate-700 dark:bg-slate-900/80 sm:p-8">
+          <div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+            <div>
+              <span class="inline-flex rounded-full bg-cyan-50 px-3 py-1 text-[10px] font-bold uppercase tracking-[.12em] text-cyan-900 dark:bg-cyan-950/70 dark:text-cyan-200">Sarjana (S1)</span>
+              <h3 class="mt-4 text-xl font-extrabold text-slate-950 dark:text-white">Teknologi Informasi</h3>
+              <p class="mt-1 text-sm font-semibold text-slate-600 dark:text-slate-300">Universitas Mikroskil · Medan</p>
+            </div>
+            <span class="rounded-lg bg-slate-100 px-3 py-2 text-xs font-bold text-slate-600 dark:bg-slate-800 dark:text-slate-300">Lulus · Agustus 2026</span>
+          </div>
+          <p class="mt-5 max-w-2xl text-sm leading-7 text-slate-600 dark:text-slate-400">Latar belakang akademik di bidang teknologi informasi menjadi dasar dalam memahami pengembangan sistem, basis data, pemrograman, dan pemanfaatan teknologi untuk mendukung kebutuhan organisasi.</p>
+        </div>
+      </div>
+    </section>
+
+    <!--
+      SERTIFIKAT & PELATIHAN (Sprint 3 - K6): section opsional.
+      Aktifkan hanya jika sertifikat benar-benar dimiliki dan dapat diverifikasi.
+      Ganti [Nama sertifikat], [Penerbit], [Tahun], [URL kredensial], lalu hapus
+      komentar pembungkus. Class .cert-card sudah tersedia di style.css.
+
+    <section id="certificates" class="reveal scroll-mt-24 py-20 md:py-24">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+        <div class="max-w-2xl">
+          <p class="section-kicker text-[10px] font-extrabold uppercase text-cyan-800 dark:text-cyan-300">Sertifikasi</p>
+          <h2 class="mt-3 text-3xl font-extrabold tracking-tight text-slate-950 dark:text-white sm:text-4xl">Pelatihan & sertifikat</h2>
+        </div>
+        <div class="mt-9 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <article class="cert-card card-line rounded-2xl bg-white p-5 dark:bg-slate-900/70">
+            <i data-lucide="badge-check" class="h-5 w-5 text-cyan-700 dark:text-cyan-300"></i>
+            <h3 class="mt-4 text-sm font-extrabold text-slate-900 dark:text-white">[Nama sertifikat]</h3>
+            <p class="mt-1 text-xs text-slate-500 dark:text-slate-400">[Penerbit] &middot; [Tahun]</p>
+            <a href="[URL kredensial]" target="_blank" rel="noopener noreferrer" class="mt-3 inline-flex items-center text-xs font-bold text-cyan-800 hover:underline dark:text-cyan-300">Lihat kredensial <i data-lucide="external-link" class="ml-1 h-3.5 w-3.5"></i></a>
+          </article>
+        </div>
+      </div>
+    </section>
+    -->
+
+    <!-- CONTACT -->
+    <section id="contact" class="reveal scroll-mt-24 py-20 md:py-24">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+        <div class="overflow-hidden rounded-[2rem] bg-gradient-to-br from-slate-900 via-ink-900 to-cyan-950 px-6 py-12 text-white shadow-2xl shadow-slate-900/15 sm:px-10 md:py-16">
+          <div class="grid gap-10 lg:grid-cols-[1fr_auto] lg:items-end">
+            <div class="max-w-2xl">
+              <p class="section-kicker text-[10px] font-extrabold uppercase text-cyan-300">Mari terhubung</p>
+              <h2 class="mt-3 text-3xl font-extrabold tracking-tight sm:text-4xl">Terbuka untuk belajar, berkolaborasi, dan berkontribusi.</h2>
+              <p class="mt-4 text-sm leading-7 text-slate-300">Saya terbuka untuk kesempatan magang, proyek kolaboratif, maupun diskusi mengenai pengembangan sistem dan solusi digital untuk kebutuhan bisnis.</p>
+            </div>
+            <div class="rounded-2xl border border-white/15 bg-white/[.07] p-5 sm:min-w-[19rem]">
+              <p class="text-xs font-bold uppercase tracking-[.14em] text-cyan-200">Hubungi saya</p>
+              <div class="mt-4 space-y-3 text-sm text-slate-200">
+                <a href="mailto:pohanahmadyasin@gmail.com" class="group flex items-center gap-3 transition hover:text-cyan-200">
+                  <i data-lucide="mail" class="h-4 w-4 shrink-0 text-cyan-300"></i>
+                  <span class="break-all">pohanahmadyasin@gmail.com</span>
+                </a>
+                <a href="https://www.linkedin.com/in/ahmad-yasin-pohan-523491256/" target="_blank" rel="noopener noreferrer" class="group flex items-center gap-3 transition hover:text-cyan-200">
+                  <i data-lucide="linkedin" class="h-4 w-4 shrink-0 text-cyan-300"></i>
+                  <span>LinkedIn · Ahmad Yasin Pohan</span>
+                  <i data-lucide="external-link" class="ml-auto h-3.5 w-3.5 shrink-0 opacity-60"></i>
+                </a>
+                <a href="https://github.com/AhmadYasinPoha" target="_blank" rel="noopener noreferrer" class="group flex items-center gap-3 transition hover:text-cyan-200">
+                  <i data-lucide="github" class="h-4 w-4 shrink-0 text-cyan-300"></i>
+                  <span>GitHub · AhmadYasinPoha</span>
+                  <i data-lucide="external-link" class="ml-auto h-3.5 w-3.5 shrink-0 opacity-60"></i>
+                </a>
+                <a href="https://wa.me/6282275192211" target="_blank" rel="noopener noreferrer" class="group flex items-center gap-3 transition hover:text-cyan-200">
+                  <i data-lucide="message-circle" class="h-4 w-4 shrink-0 text-cyan-300"></i>
+                  <span>WhatsApp · 0822 7519 2211</span>
+                  <i data-lucide="external-link" class="ml-auto h-3.5 w-3.5 shrink-0 opacity-60"></i>
+                </a>
+              </div>
+              <p class="mt-4 border-t border-white/10 pt-4 text-[10px] leading-5 text-slate-400">Silakan hubungi saya untuk kesempatan magang, kolaborasi, atau diskusi mengenai solusi bisnis dan teknologi.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-slate-200 bg-white py-6 dark:border-slate-800 dark:bg-ink-950">
+    <div class="mx-auto flex max-w-6xl flex-col gap-2 px-4 text-xs text-slate-500 dark:text-slate-400 sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8">
+      <p>© <span id="year">2026</span> Ahmad Yasin Pohan. Portofolio profesional.</p>
+      <p>Business · Technology · Creative Communication · Problem Solving</p>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" type="button" class="back-to-top" aria-label="Kembali ke atas">
+    <i data-lucide="arrow-up" class="h-5 w-5"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>

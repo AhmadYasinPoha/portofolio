@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0e4f5c"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="35%" r="50%">
+      <stop offset="0%" stop-color="rgba(34,211,238,0.15)"/>
+      <stop offset="100%" stop-color="rgba(34,211,238,0)"/>
+    </radialGradient>
+    <clipPath id="photoClip">
+      <rect x="40" y="30" width="320" height="380" rx="32"/>
+    </clipPath>
+  </defs>
+  <!-- Background -->
+  <rect width="400" height="480" rx="32" fill="url(#bg)"/>
+  <rect width="400" height="480" rx="32" fill="url(#glow)"/>
+  <!-- Person silhouette -->
+  <g clip-path="url(#photoClip)">
+    <!-- Head -->
+    <circle cx="200" cy="170" r="72" fill="#334155"/>
+    <circle cx="200" cy="170" r="68" fill="#475569"/>
+    <!-- Body/Shoulders -->
+    <ellipse cx="200" cy="410" rx="130" ry="120" fill="#334155"/>
+    <ellipse cx="200" cy="410" rx="126" ry="116" fill="#475569"/>
+    <!-- Suit collar -->
+    <path d="M140 340 L200 380 L260 340" fill="none" stroke="#22d3ee" stroke-width="2" opacity="0.4"/>
+  </g>
+  <!-- Accent ring -->
+  <rect x="40" y="30" width="320" height="380" rx="32" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0.3"/>
+  <!-- Text -->
+  <text x="200" y="448" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="800" font-size="28" fill="#e2e8f0">AYP</text>
+  <text x="200" y="470" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="500" font-size="10" fill="#94a3b8" letter-spacing="3">GANTI DENGAN FOTO ASLI</text>
+</svg>
