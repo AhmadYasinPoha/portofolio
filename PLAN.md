@@ -18,8 +18,8 @@
 | **Tujuan** | Portofolio web untuk melamar magang/kerja |
 | **Tech Stack** | HTML + Tailwind CSS (CDN) + Lucide Icons + Plus Jakarta Sans |
 | **Mode** | Single-page, Dark/Light mode, Responsive |
-| **Progres** | Sprint 1 (T1–T8) ✅, Sprint 2A (T9–T19) ✅, Sprint 2B (K1–K4) ✅, Sprint 4 (Q1–Q3) ✅ — Siap Deploy |
-| **Menunggu** | Sprint 4 (D1–D4 deploy GitHub Pages) & Sprint 3 (opsional: K5–K7) |
+| **Progres** | Sprint 1 (T1–T8) ✅, Sprint 2A (T9–T19) ✅, Sprint 2B (K1–K4) ✅, Sprint 4 (Q1–Q3, D1–D4) ✅ — 100% SELESAI (LIVE ONLINE) |
+| **Menunggu** | Portofolio sudah live online di internet! Sprint 3 (K5–K7) bersifat opsional jika ingin menambah data di masa mendatang. |
 
 ---
 
@@ -220,7 +220,7 @@ Tahapan yang diselesaikan:
 | K6 | **Sertifikat & pelatihan** | 🟢 Opsional | Section sertifikasi dengan `.cert-card`. Template: cari `SERTIFIKAT`. | ⏳ Template siap |
 | K7 | **Pengalaman organisasi** | 🟢 Opsional | Section organisasi/kepanitiaan jika relevan. | ⏳ Belum dimulai |
 
-### ⏳ Sprint 4 — QA & Deploy (D1, D2, D4 SELESAI ✓, TINGGAL AKTIVASI PAGES D3)
+### ✅ Sprint 4 — QA & Deploy (SELESAI 100% ✓)
 
 | # | Item | Prioritas | Detail | Status |
 |---|---|---|---|---|
@@ -229,7 +229,7 @@ Tahapan yang diselesaikan:
 | Q3 | **Cek Dark Mode & Print** | 🟡 Sedang | 247 utilitas dark terverifikasi, sinkronisasi tema (localStorage/OS), print styles bersih tanpa header/tombol. | ✅ Selesai |
 | D1 | **Inisialisasi Git** | 🔴 Tinggi | Repositori Git lokal diinisialisasi, branch `main`, author dikonfigurasi, dan initial commit dibuat (21 berkas). | ✅ Selesai |
 | D2 | **Push ke GitHub** | 🔴 Tinggi | Berhasil di-push ke `https://github.com/AhmadYasinPoha/portofolio` (branch `main`). | ✅ Selesai |
-| D3 | **Aktifkan GitHub Pages** | 🔴 Tinggi | Buka Settings → Pages → Deploy from branch `main` → Save. | ⏳ Menunggu Aktivasi di Web |
+| D3 | **Aktifkan GitHub Pages** | 🔴 Tinggi | Branch `main` diaktifkan dan diproses oleh GitHub Pages. Live di internet. | ✅ Selesai |
 | D4 | **Pascadeploy & Metadata SEO** | 🟡 Sedang | Canonical URL, og:url, og:image absolut, dan sitemap diaktifkan menuju `https://ahmadyasinpoha.github.io/portofolio/`. | ✅ Selesai |
 
 ---
