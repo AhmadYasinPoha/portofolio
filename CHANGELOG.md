@@ -4,6 +4,22 @@ Semua perubahan penting pada proyek portofolio dicatat di sini.
 
 ---
 
+## [2026-11-03 · sesi 16] Sprint 3 — Integrasi Proyek Mobile "SakuKu" (K5 Selesai)
+
+### 📱 Integrasi Proyek Mobile SakuKu (K5)
+- Memasang card proyek kedua pada section `#projects` di `index.html`:
+  - **Judul**: SakuKu — Personal Finance & Expense Tracker
+  - **Badge**: Mobile application project (2024)
+  - **Stack**: Flutter, Dart, SQLite, Drift ORM, Offline-First
+  - **Tombol Aksi**: Tautan langsung ke repositori GitHub resmi `https://github.com/AhmadYasinPoha/saku_ku` dengan atribut `target="_blank" rel="noopener noreferrer"`.
+  - **Uraian Kasus**: Masalah pencatatan keuangan manual, arsitektur offline-first, fitur dashboard saldo otomatis, pengelompokan transaksi, dan navigasi tanggal terintegrasi.
+- **Peningkatan Skills & SEO**:
+  - Menambahkan kompetensi `Flutter`, `Dart`, dan `Mobile Application Development` ke dalam Schema JSON-LD `Person`.
+  - Menyorot badge `Flutter & Dart` pada pilar *Technology & Digital Development* di section `#skills`.
+- **Hasil QA**: 7/7 QA statis lolos, 6 tautan eksternal tervalidasi aman.
+
+---
+
 ## [2026-11-02 · sesi 15] Sprint 4 — Push Repositori ke GitHub & Konfigurasi SEO Pascadeploy (D2 & D4 Selesai)
 
 ### 🚀 Upload ke GitHub (D2)

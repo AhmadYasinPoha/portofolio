@@ -212,11 +212,11 @@ Tahapan yang diselesaikan:
 | K3 | **Screenshot proyek** | 🟡 Sedang | 3 screenshot terpasang: Dashboard, Laporan Penjualan, Piutang Pelanggan. | ✅ Selesai |
 | K4 | **Link demo & repositori** | 🟡 Sedang | Tombol "Tonton Demo & Presentasi" (OneDrive/SharePoint) terpasang di card proyek. | ✅ Selesai |
 
-### ⏳ Sprint 3 — Konten Tambahan (OPSIONAL)
+### ⏳ Sprint 3 — Konten Tambahan (K5 SELESAI ✓, K6–K7 OPSIONAL)
 
 | # | Item | Prioritas | Detail | Status |
 |---|---|---|---|---|
-| K5 | **Proyek tambahan** | 🟢 Opsional | Tambahkan 1-2 proyek lain (side project, freelance, kuliah). Template: cari `PROYEK TAMBAHAN`. | ⏳ Template siap |
+| K5 | **Proyek tambahan** | 🟢 Tinggi | SakuKu — Personal Finance & Expense Tracker (Flutter, Dart, SQLite Drift) terpasang aktif di section proyek. | ✅ Selesai |
 | K6 | **Sertifikat & pelatihan** | 🟢 Opsional | Section sertifikasi dengan `.cert-card`. Template: cari `SERTIFIKAT`. | ⏳ Template siap |
 | K7 | **Pengalaman organisasi** | 🟢 Opsional | Section organisasi/kepanitiaan jika relevan. | ⏳ Belum dimulai |
 
@@ -303,6 +303,19 @@ Lokasi         : Medan, Sumatera Utara
   - Integrasi piutang otomatis
   - Laporan stok, transaksi, dan keuangan
 - **Status Konten di Portofolio**: ✅ Selesai Penuh — Kontribusi pribadi sudah dirinci spesifik dan faktual (Wawancara Kebutuhan, Analisis Sistem Berjalan & Masalah, Solusi Fitur Sistem), dilengkapi 3 screenshot antarmuka sistem nyata dan tautan rekaman demo + presentasi di OneDrive.
+
+### Proyek 2: SakuKu — Personal Finance & Expense Tracker Mobile App
+- **Jenis**: Academic & Personal Mobile Application Project (2024)
+- **Judul Lengkap**: Pengembangan Aplikasi Mobile Manajemen Arus Kas Harian dengan Basis Data Lokal Mandiri
+- **Stack**: Flutter + Dart + SQLite (Drift ORM) + Google Fonts + Responsive Mobile UI
+- **Fitur yang Dibangun**:
+  - Arsitektur *offline-first* (beroperasi penuh tanpa internet)
+  - Penyimpanan basis data relasional lokal terstruktur (SQLite & Drift ORM)
+  - Dashboard keuangan: saldo aktual, total pemasukan, dan total pengeluaran
+  - Form pencatatan transaksi harian dengan kategorisasi dinamis
+  - Filter riwayat transaksi berbasis kalender tanggal
+- **Tautan Repositori**: `https://github.com/AhmadYasinPoha/saku_ku`
+- **Status Konten di Portofolio**: ✅ Selesai Terpasang (dilengkapi tombol ke GitHub repo)
 
 ---
 
