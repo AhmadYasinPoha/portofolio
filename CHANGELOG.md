@@ -4,6 +4,17 @@ Semua perubahan penting pada proyek portofolio dicatat di sini.
 
 ---
 
+## [2026-11-05 · sesi 18] Personalisasi Kontak — Integrasi Akun TikTok
+
+### 📱 Penambahan Saluran Media Sosial
+- Menambahkan tautan profil TikTok resmi (`https://www.tiktok.com/@a.yasinp30?_r=1&_t=ZS-99sS2wrjj0v`) pada kartu kontak `#contact` di `index.html`.
+- Dilengkapi dengan ikon SVG logo TikTok vektor yang presisi dan atribut keamanan `target="_blank" rel="noopener noreferrer"`.
+- Menambahkan tautan profil TikTok ke dalam daftar `sameAs` pada Schema JSON-LD `Person` untuk optimasi indeks identitas mesin pencari.
+- Memperbarui daftar data pribadi di `PLAN.md`.
+- **Hasil QA**: 7/7 QA statis lulus, 8 tautan eksternal tervalidasi aman.
+
+---
+
 ## [2026-11-04 · sesi 17] Sprint 3 — Integrasi Sertifikasi AI Komdigi & Microsoft (K6 Selesai)
 
 ### 🏆 Integrasi Sertifikasi Resmi (K6)

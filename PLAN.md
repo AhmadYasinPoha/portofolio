@@ -283,6 +283,7 @@ Email          : pohanahmadyasin@gmail.com
 LinkedIn       : linkedin.com/in/ahmad-yasin-pohan-523491256/
 GitHub         : github.com/AhmadYasinPoha
 WhatsApp       : 0822 7519 2211 (wa.me/6282275192211)
+TikTok         : @a.yasinp30 (tiktok.com/@a.yasinp30)
 Lokasi         : Medan, Sumatera Utara
 ```
 
