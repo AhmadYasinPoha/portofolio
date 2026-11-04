@@ -4,6 +4,22 @@ Semua perubahan penting pada proyek portofolio dicatat di sini.
 
 ---
 
+## [2026-11-04 · sesi 17] Sprint 3 — Integrasi Sertifikasi AI Komdigi & Microsoft (K6 Selesai)
+
+### 🏆 Integrasi Sertifikasi Resmi (K6)
+- Mengaktifkan section `#certificates` (Sertifikasi & Pelatihan) di `index.html`:
+  - **Program**: Elevate: Artificial Intelligence (AI)
+  - **Penerbit**: Kementerian Komunikasi dan Digital (KOMDIGI) & Microsoft
+  - **Tahun**: 2025
+  - **Tautan Kredensial**: Terhubung langsung ke folder verifikasi cloud resmi dengan pengamanan `rel="noopener noreferrer"`.
+  - **Deskripsi**: Pelatihan komprehensif pemanfaatan kecerdasan buatan, teknologi produktivitas berbasis AI, dan ekosistem Microsoft.
+- **Navigasi Web & Aksesibilitas**:
+  - Menambahkan menu `Sertifikasi` (`#certificates`) pada bilah navigasi desktop dan navigasi seluler (drawer).
+  - Menambahkan kompetensi `Artificial Intelligence (AI)` dan `Microsoft AI` ke dalam Schema JSON-LD `Person`.
+- **Hasil QA**: 7/7 QA statis lulus, 19 anchor internal valid, 7 tautan eksternal aman.
+
+---
+
 ## [2026-11-03 · sesi 16] Sprint 3 — Integrasi Proyek Mobile "SakuKu" (K5 Selesai)
 
 ### 📱 Integrasi Proyek Mobile SakuKu (K5)

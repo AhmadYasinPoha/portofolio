@@ -212,12 +212,12 @@ Tahapan yang diselesaikan:
 | K3 | **Screenshot proyek** | 🟡 Sedang | 3 screenshot terpasang: Dashboard, Laporan Penjualan, Piutang Pelanggan. | ✅ Selesai |
 | K4 | **Link demo & repositori** | 🟡 Sedang | Tombol "Tonton Demo & Presentasi" (OneDrive/SharePoint) terpasang di card proyek. | ✅ Selesai |
 
-### ⏳ Sprint 3 — Konten Tambahan (K5 SELESAI ✓, K6–K7 OPSIONAL)
+### ✅ Sprint 3 — Konten Tambahan (K5 & K6 SELESAI ✓, K7 OPSIONAL)
 
 | # | Item | Prioritas | Detail | Status |
 |---|---|---|---|---|
 | K5 | **Proyek tambahan** | 🟢 Tinggi | SakuKu — Personal Finance & Expense Tracker (Flutter, Dart, SQLite Drift) terpasang aktif di section proyek. | ✅ Selesai |
-| K6 | **Sertifikat & pelatihan** | 🟢 Opsional | Section sertifikasi dengan `.cert-card`. Template: cari `SERTIFIKAT`. | ⏳ Template siap |
+| K6 | **Sertifikat & pelatihan** | 🟢 Tinggi | Elevate: Artificial Intelligence (AI) oleh KOMDIGI & Microsoft 2025 terpasang aktif di section #certificates (dengan link kredensial). | ✅ Selesai |
 | K7 | **Pengalaman organisasi** | 🟢 Opsional | Section organisasi/kepanitiaan jika relevan. | ⏳ Belum dimulai |
 
 ### ✅ Sprint 4 — QA & Deploy (SELESAI 100% ✓)
